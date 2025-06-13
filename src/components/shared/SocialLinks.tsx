@@ -9,7 +9,7 @@ import { FaFacebookSquare } from '@react-icons/all-files/fa/FaFacebookSquare';
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube';
 import { FaDev } from '@react-icons/all-files/fa/FaDev';
 import { SiLeetcode } from '@react-icons/all-files/si/SiLeetcode';
-import { FaUpwork } from "react-icons/fa6";
+import { FaUpwork as RawFaUpwork } from 'react-icons/fa6';
 
 import { socialLinkTypes } from '../../types/SocialLink';
 import type { SocialLink as SocialLinkType } from '../../types/SocialLink';
@@ -22,6 +22,8 @@ type SocialLinksProps = {
   iconClassName?: string,
   itemClassName?: string,
 };
+
+const FaUpwork = RawFaUpwork as unknown as React.FC<{ className?: string }>;
 
 const linkToIcon = {
   [socialLinkTypes.twitter]: FaTwitter,

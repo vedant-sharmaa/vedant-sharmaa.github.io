@@ -1,15 +1,15 @@
 import React from 'react';
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin';
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter';
 import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub';
 import { FaEnvelope } from '@react-icons/all-files/fa/FaEnvelope';
-import { FaPhoneAlt } from '@react-icons/all-files/fa/FaPhoneAlt';
+import { FaUpwork as RawFaUpwork } from 'react-icons/fa6';
 import ErrorBoundary from '../shared/ErrorBoundary';
 import SEO from '../shared/SEO';
 import PageLayout from '../layouts/PageLayout';
 import { socialLinks } from '../../data/socialLinks';
-import { FaUpwork } from 'react-icons/fa6';
+
+const FaUpwork = RawFaUpwork as unknown as React.FC<{ className?: string }>;
 
 const ContactScreen = (): React.ReactElement => {
   const renderContactLink = (
@@ -44,7 +44,7 @@ const ContactScreen = (): React.ReactElement => {
         description="This page contains contact information to reach out Vedant via various platforms."
       />
       <ErrorBoundary>
-      <div className="flex flex-col items-center justify-start px-6">
+        <div className="flex flex-col items-center justify-start px-6">
           <div className="max-w-3xl w-full bg-white p-6 rounded-md shadow-sm">
             {/* Header */}
             <h1 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
@@ -75,20 +75,21 @@ const ContactScreen = (): React.ReactElement => {
               )}
             </div>
 
-            {/* Book a Call 
+            {/* Book a Call
             <div className="text-center mb-4">
               <a
                 href="" // Replace with actual booking link
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-4 py-2 text-sm font-medium text-white bg-gray-600 rounded-md hover:bg-black transition"
+                className="inline-block px-4 py-2 text-sm font-medium text-white bg-gray-600
+                rounded-md hover:bg-black transition"
               >
                 Book time on Calendar
               </a>
             </div> */}
           </div>
 
-          {/* Resume Section 
+          {/* Resume Section
           <div className="w-full max-w-4xl mt-8 bg-white rounded-md shadow-sm">
             <h2 className="text-lg font-semibold text-gray-800 p-4 bg-gray-100 text-center">
               My Resume
@@ -108,7 +109,8 @@ const ContactScreen = (): React.ReactElement => {
               <a
                 href="/static-assets/resume_ml.pdf"
                 download
-                className="inline-block px-4 py-2 text-sm font-medium text-white bg-gray-600 rounded-md hover:bg-black transition"
+                className="inline-block px-4 py-2 text-sm font-medium text-white bg-gray-600
+                rounded-md hover:bg-black transition"
               >
                 Download Resume
               </a>

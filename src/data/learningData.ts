@@ -20,7 +20,7 @@ export const certificationsData: Certificate[] = [
     platform: 'Coursera',
     date: 'Sept 2021',
     link: 'https://coursera.org/share/176170dc043f2995ff0f726964668dd2',
-    icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1755129600&v=beta&t=8jAFuWf6uropnITIw8nHepcam1DGMSZLoAh8WwYabUs'
+    icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1755129600&v=beta&t=8jAFuWf6uropnITIw8nHepcam1DGMSZLoAh8WwYabUs',
   },
   {
     title: 'Python (Basic)',
@@ -34,7 +34,7 @@ export const certificationsData: Certificate[] = [
     platform: 'MITx',
     date: 'Jul 2021',
     link: 'https://courses.edx.org/certificates/56a9b51d89214d1aa7c42c04a1d4ee68',
-    icon: 'https://media.licdn.com/dms/image/v2/D560BAQH-UXRfIDIKug/company-logo_200_200/company-logo_200_200/0/1689799729035/mit_logo?e=1755129600&v=beta&t=IAwmWuEjIrVNOGmIQotBYl8EiMqw3XcZ-skv09vqc2o'
+    icon: 'https://media.licdn.com/dms/image/v2/D560BAQH-UXRfIDIKug/company-logo_200_200/company-logo_200_200/0/1689799729035/mit_logo?e=1755129600&v=beta&t=IAwmWuEjIrVNOGmIQotBYl8EiMqw3XcZ-skv09vqc2o',
   },
   {
     title: 'Learning How to Learn: Powerful mental tools to help you master tough subjects',

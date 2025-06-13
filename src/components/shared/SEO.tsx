@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import {
   siteURL,
   windowNamePrefix,
-  windowNameSeparator, 
+  windowNameSeparator,
   siteImage,
 } from '../../constants/siteMeta';
 

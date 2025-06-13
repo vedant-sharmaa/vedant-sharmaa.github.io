@@ -7,7 +7,7 @@ import paytmLogo from '../images/logos/paytm_logo.jpeg';
 export const profile: Profile = {
   firstName: 'Vedant',
   lastName: 'Sharma',
-  position: "M.S. Computer Science and Engineering @ IIT Delhi",
+  position: 'M.S. Computer Science and Engineering @ IIT Delhi',
   summary: ['Software Developer | AI & Systems Researcher'],
   avatar: {
     srcPath: 'profile/avataar_fullxfull.jpeg',

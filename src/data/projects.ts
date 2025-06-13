@@ -1,7 +1,7 @@
 import { Projects } from '../types/Project';
 
 export const projects: Projects = {
-  'channellinkup': {
+  channellinkup: {
     id: 'channellinkup',
     name: 'Channel Linkup',
     srcURL: { url: 'https://channellinkup.com/' },
