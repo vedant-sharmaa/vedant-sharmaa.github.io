@@ -22,8 +22,8 @@ const Greeting = (): React.ReactElement => {
         Hi there! I&apos;m <strong>Vedant Sharma</strong>, a passionate{' '}
         <strong>Master&apos;s in Computer Science</strong> student at{' '}
         <strong>IIT Delhi</strong>, specializing in{' '}
-        <strong>Artificial Intelligence</strong> and <strong>Systems Research.</strong>
-         My journey spans {' '}<strong>full-stack development</strong>,
+        <strong>Artificial Intelligence</strong> and <strong>Systems Research. </strong>
+        My journey spans {' '}<strong>full-stack development</strong>,
         <strong> cloud computing</strong>, <strong>deep learning</strong>, and
         <strong>freelancing</strong>,
         with hands-on experience at <strong>Amazon</strong> and <strong>Paytm</strong>.
