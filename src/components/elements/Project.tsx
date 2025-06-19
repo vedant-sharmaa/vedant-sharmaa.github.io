@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoPlay } from '@react-icons/all-files/io5/IoPlay';
 import { FaGlobe } from '@react-icons/all-files/fa/FaGlobe';
+import { FaGithub } from '@react-icons/all-files/fa/FaGithub';
 import { BiInfoCircle } from '@react-icons/all-files/bi/BiInfoCircle';
 
 import { Project as ProjectType } from '../../types/Project';
@@ -73,7 +74,7 @@ const Project = (props: ProjectProps): React.ReactElement | null => {
     </div>
   ) : null;
 
-  const defaultProjectUrl = project.archived ? undefined : project.demoURL || project.srcURL;
+  const defaultProjectUrl = project.archived ? undefined : project.demoURL || project.srcURL || project.oURL;
 
   const demoLink = project.demoURL && !project.archived ? (
     <ButtonLink
@@ -88,6 +89,15 @@ const Project = (props: ProjectProps): React.ReactElement | null => {
   const sourceCodeLink = project.srcURL && !project.archived ? (
     <ButtonLink
       link={project.srcURL}
+      startEnhancer={<FaGithub />}
+    >
+      Source Code
+    </ButtonLink>
+  ) : null;
+
+  const oCodeLink = project.oURL && !project.archived ? (
+    <ButtonLink
+      link={project.oURL}
       startEnhancer={<FaGlobe />}
     >
       Website
@@ -114,10 +124,11 @@ const Project = (props: ProjectProps): React.ReactElement | null => {
     </Row>
   ) : null;
 
-  const actions = demoLink || sourceCodeLink ? (
+  const actions = demoLink || sourceCodeLink || oCodeLink ? (
     <Row className="py-6">
       {demoLink}
       {sourceCodeLink}
+      {oCodeLink}
     </Row>
   ) : null;
 
