@@ -74,7 +74,8 @@ const Project = (props: ProjectProps): React.ReactElement | null => {
     </div>
   ) : null;
 
-  const defaultProjectUrl = project.archived ? undefined : project.demoURL || project.srcURL || project.oURL;
+  const defaultProjectUrl = project.archived ? undefined : project.demoURL
+  || project.srcURL || project.oURL;
 
   const demoLink = project.demoURL && !project.archived ? (
     <ButtonLink
