@@ -20,6 +20,8 @@ export type TimelineEntry = {
   title: string; // Job title or role
   duration: string; // Duration of the role (e.g., "Jan 2020 - Dec 2021")
   description: string; // Description of the work or responsibilities
+  taLink?: string;
+  taLinkTxt?:string;
   link?: string; // Optional link to the company or project
   linkTxt?:string; // optional otherwise will display view more
   image?: string; // Optional image URL for the entry

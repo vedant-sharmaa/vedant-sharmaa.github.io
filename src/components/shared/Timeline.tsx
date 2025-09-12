@@ -52,7 +52,10 @@ const Timeline: React.FC<TimelineProps> = ({ entries }) => {
                   <p className="text-sm text-gray-400">{entry.duration}</p>
                 </div>
               </div>
-              <p className="text-sm">{entry.description}</p>
+              <p
+                className="text-sm"
+                dangerouslySetInnerHTML={{ __html: entry.description }}
+              />
               {entry.link && (
                 <a
                   href={entry.link}
