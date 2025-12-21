@@ -1,4 +1,8 @@
 import { Book, Certificate, Coursework } from '../types/Learnings';
+import hackerRankLogo from '../images/certificates/hackerrank_logo.jpeg';
+import courseraLogo from '../images/certificates/coursera_logo.jpeg';
+import mitLogo from '../images/certificates/mit_logo.jpeg';
+
 
 export const certificationsData: Certificate[] = [
   {
@@ -6,42 +10,42 @@ export const certificationsData: Certificate[] = [
     platform: 'HackerRank',
     date: 'June 2022',
     link: 'https://www.hackerrank.com/certificates/95c1dc0be15b',
-    icon: 'https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_200_200/company-logo_200_200/0/1705561459405/hackerrank_logo?e=1760572800&v=beta&t=dINv0kt1tTDLdIvRqsQX4SQkA-2ns3WBoVpcMWJDuik',
+    icon: hackerRankLogo,
   },
   {
     title: 'Problem Solving (Basic)',
     platform: 'HackerRank',
     date: 'June 2022',
     link: 'https://www.hackerrank.com/certificates/608a0b4de2ce',
-    icon: 'https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_200_200/company-logo_200_200/0/1705561459405/hackerrank_logo?e=1760572800&v=beta&t=dINv0kt1tTDLdIvRqsQX4SQkA-2ns3WBoVpcMWJDuik',
+    icon: hackerRankLogo,
   },
   {
     title: 'Object-Oriented Data Structures in C++',
     platform: 'Coursera',
     date: 'Sept 2021',
     link: 'https://coursera.org/share/176170dc043f2995ff0f726964668dd2',
-    icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1760572800&v=beta&t=GTgcjnXRLqiDj5Zh9su74Q9LjafxLh3r-CLsDVeTnrU',
+    icon: courseraLogo,
   },
   {
     title: 'Python (Basic)',
     platform: 'HackerRank',
     date: 'Aug 2021',
     link: 'https://www.hackerrank.com/certificates/83c7cbf978f9',
-    icon: 'https://media.licdn.com/dms/image/v2/D560BAQE8MivsmbT7Ig/company-logo_200_200/company-logo_200_200/0/1705561459405/hackerrank_logo?e=1760572800&v=beta&t=dINv0kt1tTDLdIvRqsQX4SQkA-2ns3WBoVpcMWJDuik',
+    icon: hackerRankLogo,
   },
   {
     title: 'Introduction to Computer Science and Programming Using Python',
     platform: 'MITx',
     date: 'Jul 2021',
     link: 'https://courses.edx.org/certificates/56a9b51d89214d1aa7c42c04a1d4ee68',
-    icon: 'https://media.licdn.com/dms/image/v2/D560BAQH-UXRfIDIKug/company-logo_200_200/company-logo_200_200/0/1689799729035/mit_logo?e=1760572800&v=beta&t=Uy72D3jfvHftoNu7k5vFYaO-fm4aJvhew4x73WomEK8',
+    icon: mitLogo,
   },
   {
     title: 'Learning How to Learn: Powerful mental tools to help you master tough subjects',
     platform: 'Coursera',
     date: 'Jul 2021',
     link: 'https://www.coursera.org/account/accomplishments/certificate/4WLZ7MJ6MARN',
-    icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1760572800&v=beta&t=GTgcjnXRLqiDj5Zh9su74Q9LjafxLh3r-CLsDVeTnrU',
+    icon: courseraLogo,
   },
 ];
 
