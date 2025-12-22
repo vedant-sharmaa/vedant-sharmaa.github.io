@@ -3,7 +3,6 @@ import hackerRankLogo from '../images/certificates/hackerrank_logo.jpeg';
 import courseraLogo from '../images/certificates/coursera_logo.jpeg';
 import mitLogo from '../images/certificates/mit_logo.jpeg';
 
-
 export const certificationsData: Certificate[] = [
   {
     title: 'Problem Solving (Intermediate)',
