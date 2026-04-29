@@ -4,7 +4,7 @@ export const projects: Projects = {
   channellinkup: {
     id: 'channellinkup',
     name: 'Channel Linkup',
-    oURL: { url: 'https://channellinkup.com/' },
+    // oURL: { url: 'https://channellinkup.com/' },
     demoURL: { url: 'https://drive.google.com/file/d/1Nj3Na7YwrfStrO17c7Keo8ht0zV9bGJx/view' },
     cover: { srcPath: 'projects/channellinkup/02-cover-cl.png' },
     startDate: '2024-07-01',

@@ -34,7 +34,7 @@ export const timelineEntries: TimelineEntry[] = [
     title: 'M.S. in Computer Science',
     duration: 'July 2024 - May 2026',
     description:
-      'Pursuing advanced coursework in parallel programming, deep learning, cloud computing, and high-performance computer architecture at IIT Delhi, and awarded the title of <a href="https://homecse.iitd.ac.in/cse-iit-delhi-ta-award/" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold bg-blue-50 px-1 py-0.5 rounded hover:bg-blue-100 hover:text-blue-800 transition-colors">Outstanding Teaching Assistant</a> for COL380: Introduction to Parallel &amp; Distributed Programming.',
+      'Pursuing advanced coursework in parallel programming, deep learning, cloud computing, and high-performance computer architecture at IIT Delhi. Twice awarded the title of <a href="https://homecse.iitd.ac.in/cse-iit-delhi-ta-award/" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-semibold bg-blue-50 px-1 py-0.5 rounded hover:bg-blue-100 hover:text-blue-800 transition-colors">Outstanding Teaching Assistant</a> for COL380: Introduction to Parallel & Distributed Programming and COL106: Data Structures and Algorithms.',
     link: 'https://www.iitd.ac.in',
     linkTxt: 'Visit',
     image:
