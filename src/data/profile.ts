@@ -3,6 +3,7 @@ import { socialLinks } from './socialLinks';
 import amazonLogo from '../images/logos/amazon_logo.jpeg';
 import iitdLogo from '../images/logos/iitd_logo.png';
 import paytmLogo from '../images/logos/paytm_logo.jpeg';
+import nithLogo from '../images/logos/nith_alumni_logo.jpeg';
 
 export const profile: Profile = {
   firstName: 'Vedant',
@@ -45,7 +46,7 @@ export const timelineEntries: TimelineEntry[] = [
     title: 'SDE Intern',
     duration: 'Nov 2022 - May 2023',
     description:
-      'Contributed to Alexa AI-Natural Understanding team by building and automating NU model pipelines on a containerized AWS-based infrastructure using Python and Docker.',
+      'Contributed to Alexa AI-Natural Understanding team by building and automating NLU model pipelines on a containerized AWS-based infrastructure using Python and Docker.',
     link: 'https://www.amazon.de',
     linkTxt: 'Visit',
     image:
@@ -82,6 +83,6 @@ export const timelineEntries: TimelineEntry[] = [
     link: 'https://nith.ac.in',
     linkTxt: 'Visit',
     image:
-      'https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/National_Institute_of_Technology%2C_Hamirpur_Logo.png/220px-National_Institute_of_Technology%2C_Hamirpur_Logo.png',
+      nithLogo,
   },
 ];
